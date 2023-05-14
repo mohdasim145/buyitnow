@@ -1,0 +1,257 @@
+/* Header Start From Here */
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0		px;
+	/* background-color: white; */
+}
+
+ .logo {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	color: black;
+	text-decoration: underline;
+}
+
+b{
+	text-decoration: none;
+}
+
+.upper-head{
+	text-align: center;
+    margin: 0px;
+    padding: 4.66667px 10px;
+    left: 0px;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    position: absolute;
+    background-color: rgb(54, 72, 89);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    line-height: 17.5px;
+    font-family: Segoe UI;
+}
+
+.up-font{
+	color: orange;
+	font-family: 'Segoe UI';
+}
+
+header {
+	background-color: #1d3642;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 25px;
+	color: black;
+	font-size: 20px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	font-family: Helvetica;
+  font-size: small;
+}
+
+nav ul li a:hover {
+	color: rgb(7, 74, 101);
+	/* background-color: #085ede; */
+	text-decoration: underline; 
+	/* padding: 15px; */
+}
+
+/* MAIN IS SIART FROM HERE */
+  
+.Border{
+  padding: 5px;
+  /* background-color: #e7e8ec; */
+}
+
+main{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 7px;
+}
+
+
+  #name{
+    margin-bottom: 20px;
+    border-radius: 0px;
+    padding: 10px;
+    margin: 0;
+    width: 40%;
+    border-width: 1px;
+    border-style: solid;
+  }
+  #email{
+    margin-bottom: 20px;
+    border-radius: 0px;
+    padding: 10px;
+    margin: 0;
+    width: 40%;
+    border-width: 1px;
+    border-style: solid;
+  }
+  #Contact{
+    margin-bottom: 20px;
+    border-radius: 0px;
+    padding: 10px;
+    margin: 0;
+    width: 17%;
+    border-width: 1px;
+    border-style: solid;
+  }
+  #subject{
+    margin-bottom: 20px;
+    border-radius: 0px;
+    padding: 10px;
+    margin: 0;
+    width: 40%;
+    border-width: 1px;
+    border-style: solid;
+  }
+  textarea {
+    margin-bottom: 20px;
+    border-radius: 0px;
+    padding: 10px;
+    margin: 0;
+    width: 40%;
+    border-width: 1px;
+    border-style: solid;
+  }
+  
+  input[type="submit"] {
+    background-color: green;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+  background-color: #555;
+  } 
+  
+ /* FOOTER IS START FROM HERE */
+
+ footer {
+	background-color: #1d3642;
+	padding: 50px 20px;
+	/* border-top-color: #333;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 10px;
+	border: solid; */
+  }
+
+  .footer-AU{
+	color: white;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+  }
+  
+  .footer-top {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 20px;
+  }
+  
+  .footer-col {
+	padding: 0;
+	margin: 2px;
+	flex-basis: 15%;
+  }
+  
+  .footer-col h4 {
+	margin-top: 0;
+	margin-bottom: 20px;
+  }
+  
+  .footer-col ul {
+	list-style: none;
+   	 border-right: solid;
+	border-color: white;
+	width: 230px;
+	margin: auto;
+	padding: 0;
+  }
+  
+  .footer-col li {
+	margin-bottom: 10px;
+  }
+
+  .footer-AU{
+	font-family: 'Segoe UI';
+	color: black;
+	/* border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border: solid; */
+	text-align: center;
+	background-color: rgb(54, 196, 101);
+	width: 120px;
+  }
+  
+  .btn{
+	text-align: center;
+  }
+  
+  .footer-col li a {
+	font-family: 'Segoe UI';
+	color: white;
+	text-decoration:double;
+	/* border-right: solid; */
+  }
+
+  .footer-paragraph{
+	text-align: left;
+	color: white;
+	font-family: 'Segoe UI';
+	font-size: 16px;
+	width: 240px;
+	border-right: solid;
+  }
+  
+  
+  .footer-bottom {
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+  }
+  
+  .Footer-Initial {
+	color: white;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+  }
+
+.Foot{
+	color: white;
+	font-family: 'Times New Roman';
+	font-size: 15px;
+    text-align: center;
+}

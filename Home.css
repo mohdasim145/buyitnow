@@ -1,0 +1,419 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0		px;
+	/* background-color: rgb(207, 199, 199); */
+	-webkit-tap-highlight-color: transparent;
+}
+
+ .logo {
+	font-family: Helvetica;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+
+}
+
+.details {
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+}
+
+a:hover{
+	color: black;
+	text-decoration: underline;
+}
+
+b{
+	text-decoration: none;
+}
+
+.upper-head{
+	text-align: center;
+    margin: 0px;
+    padding: 4.66667px 10px;
+    left: 0px;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    position: absolute;
+    background-color: rgb(54, 72, 89);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    line-height: 17.5px;
+    font-family: Helvetica;
+}
+
+.up-font{
+	color: orange;
+	font-family: 'Segoe UI';
+}
+
+header {
+	background-color: #1d3642;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 25px;
+	color: black;
+	font-size: 20px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	font-family: Helvetica;
+	font-size: small;
+}
+
+nav ul li a:hover {
+	color: rgb(33, 66, 79);
+	text-decoration: none;
+}
+
+
+.header_link .action-area__link {
+	size: 1px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-items: center;
+    padding: 1rem 5px;
+    height: 100%;
+}
+/* MAIN IS START FROM HERE */
+
+.slider {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+  .slide {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	height: 4	00px;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+}
+  
+.slide.active {
+	opacity: 1;
+  }
+  
+  
+  main {
+	/* background-color: #acabab; */
+	max-width: 1230px;
+    margin: 0 auto;
+    padding: 7px;
+}
+
+#banner{
+	background-color: rgb(187, 185, 185);
+	/* border: solid;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 8px; */
+}
+
+h1 {
+	background-image: url("");
+	font-family: 'Segoe UI';
+	text-align: center;
+	font-size: 40px;
+}
+
+p {
+	text-align: center ;
+	font-size: 22px;
+	font-family: 'Segoe UI';
+}
+
+form{
+	display: block;
+	margin-top: 0em;
+}
+
+ .email{
+    position: relative;
+    width: calc(100% - 50px);
+    float: left;
+    height: 45px;
+    font-size: 11px;
+    color: #333;
+    background: #fff;
+    line-height: 45px;
+    font-weight: 600;
+    border: none;
+}
+
+/*
+
+.submit{
+	width: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    float: left;
+    background: #333;
+    color: #fff;
+    height: 45px;
+    line-height: 45px;
+    text-transform: capitalize;
+    padding-right: 10px;
+    border: none;
+} */
+
+.search-container {
+	background-color: #1d3642;
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+	align-items:baseline;
+	margin-top: 10px;
+	position: inherit;
+}
+
+h3{
+	text-align: center;
+}
+
+button{
+	text-align: center;
+	font-family: 'Segoe UI';
+}
+
+.HeadPara{
+	font-family: "Jost", Sans-serif;
+	font-size: 40px;
+	line-height: 1px;
+}
+
+
+.Typewriter__wrapper {
+	color: #DC8665;
+	font-family: "Jost", Sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 1px;
+}
+
+.product {
+	width: calc(26% - 10px);
+	  margin-bottom: 20px;
+	  text-align: center;
+	  background-color: #1d3642;
+	  border: 1px solid white;
+	  height: auto;
+	}
+	.product-container {
+		/* background-color: rgb(177, 172, 172); */
+		background-color: rgb(255, 255, 255);
+		display: flex;
+		flex-wrap:inherit;
+		justify-content: left;
+	  }
+
+	  .product :hover{
+		box-shadow: gray;
+		position: relative;
+	  }
+	  
+	  
+	  .product img {
+		max-width: 100%;
+		height: auto;
+		margin-bottom: 10px;
+	  }
+	  
+	  .product h3 {
+		font-family: 'Segoe UI';
+		margin-bottom: 10px;
+	  }
+	  
+	  .product p {
+		font-family: 'Segoe UI';
+		margin-bottom: 10px;
+	  }
+	  
+	  .btn {
+		display: inline-block;
+		padding: 8px 16px;
+		background-color: #000;
+		color: #fff;
+		text-decoration: none;
+		/* border-radius: 4px; */
+	  }
+	
+	  .cart{
+		background: local	;
+		font-family: 'Segoe UI';
+		color: white;
+		background-color: rgb(58, 44, 44);
+	  }
+
+	article {
+		background-color: black;
+		border-top-color: #333;
+		/* border-top-right-radius: 10px;
+		border-bottom-left-radius: 10px; */
+		border: none;	
+		background-color: #fdfeff;
+		flex-basis: 200%;
+	  }
+
+/* FOOTER IS START FROM HERE */
+
+footer {
+	background-color: #1d3642;
+	padding: 50px 20px;
+  }
+
+  .footer-AU{
+	color: white;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+  }
+  
+  .footer-top {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 20px;
+  }
+  
+  .footer-col {
+	padding: 0;
+	margin: 2px;
+	flex-basis: 15%;
+  }
+  
+  .footer-col h4 {
+	margin-top: 0;
+	margin-bottom: 20px;
+  }
+  
+  .footer-col ul {
+	list-style: none;
+   	 border-right: solid;
+	border-color: white;
+	width: 230px;
+	margin: auto;
+	padding: 0;
+  }
+  
+  .footer-col li {
+	margin-bottom: 10px;
+  }
+
+  .footer-AU{
+	font-family: 'Segoe UI';
+	color: black;
+	/* border-top-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border: solid; */
+	text-align: center;
+	background-color: rgb(54, 196, 101);
+	width: 120px;
+  }
+  
+  .btn{
+	text-align: center;
+  }
+  
+  .footer-col li a {
+	font-family: 'Segoe UI';
+	color: white;
+	text-decoration:double;
+	/* border-right: solid; */
+  }
+
+  .footer-paragraph{
+	text-align: left;
+	color: white;
+	font-family: 'Segoe UI';
+	font-size: 16px;
+	width: 240px;
+	border-right: solid;
+  }
+  
+  
+  .footer-bottom {
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+  }
+  
+  .Footer-Initial {
+	color: black;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+  }
+
+.Foot{
+	color: white;
+	font-family: 'Times New Roman';
+	font-size: 15px;
+    text-align: center;
+}
+
+/* @media screen and (max-width: 600px) 
+{
+	h1{
+		font-size: 25px;
+		line-height: 50px
+	}
+	.HeadPara{
+		font-size: 20px;
+		line-height: 50px
+	}
+
+	.Typewriter__wrapper{
+		font-size: 20px;
+		line-height: 50px
+	}
+
+	.slider {
+		position: relative;
+		width: 100%;
+		height: 20vh;
+		overflow: hidden;
+	}
+}  */
+/* 
+@media screen and (max-width: 250px) 
+{
+	h1{
+		font-size: 20px;
+		line-height: 50px
+	}
+
+	.HeadPara{
+		font-size: 20px;
+		line-height: 50px
+	}
+
+	.Typewriter__wrapper{
+		font-size: 20px;	
+		line-height: 50px
+	}
+}  */
